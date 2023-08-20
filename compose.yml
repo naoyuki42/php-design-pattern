@@ -1,0 +1,7 @@
+services:
+  php:
+    container_name: design-pattern
+    build: ./
+    tty: true
+    volumes:
+      - ./:/app
